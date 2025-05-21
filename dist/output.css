@@ -1055,6 +1055,14 @@ html {
   max-width: 320px;
 }
 
+.max-w-\[300px\]{
+  max-width: 300px;
+}
+
+.max-w-\[280px\]{
+  max-width: 280px;
+}
+
 .flex-none{
   flex: none;
 }
@@ -1753,12 +1761,36 @@ html {
     width: 320px;
   }
 
+  .md\:w-auto{
+    width: auto;
+  }
+
   .md\:min-w-\[320px\]{
     min-width: 320px;
   }
 
+  .md\:min-w-\[400px\]{
+    min-width: 400px;
+  }
+
   .md\:max-w-\[320px\]{
     max-width: 320px;
+  }
+
+  .md\:max-w-\[400px\]{
+    max-width: 400px;
+  }
+
+  .md\:max-w-full{
+    max-width: 100%;
+  }
+
+  .md\:max-w-none{
+    max-width: none;
+  }
+
+  .md\:flex-row{
+    flex-direction: row;
   }
 
   .md\:flex-nowrap{

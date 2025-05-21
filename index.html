@@ -154,12 +154,13 @@
           <span class="sr-only">Next slide</span>
         </button>
 
-        <div id="projectContainer" class="flex flex-nowrap overflow-x-auto scroll-smooth gap-4 md:gap-8 px-0 md:px-6 pb-12 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] mb-20">
-          <div class="flex flex-nowrap gap-4 md:gap-6">
+        <div id="projectContainer" class="flex flex-col md:flex-row overflow-x-auto scroll-smooth gap-4 md:gap-8 px-4 md:px-6 pb-12 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none] mb-20">
+          <div class="flex flex-col md:flex-row gap-4 md:gap-6">
           <!-- Project 1 -->
           <div
-          class="group relative flex-none min-w-[330px] max-w-[370px] md:min-w-[320px] md:max-w-[320px] lg:min-w-[360px] lg:max-w-[360px] flex flex-col justify-between overflow-hidden rounded-lg md:rounded-xl bg-white project-card shadow-sm hover:shadow-md transition-shadow"
-        >
+        class="group relative col-span-3 flex flex-col justify-between overflow-hidden rounded-xl bg-white"
+        style="border: 2px solid transparent; background-origin: border-box; background-clip: padding-box, border-box; background-image: linear-gradient(white, white), linear-gradient(to right, rgba(255, 189, 205, 0.97), rgba(192, 245, 163, 0.78)); min-width: 360px; max-width: 480px;"
+      >
           <div>
             <div class="relative w-full pb-[56%] overflow-hidden rounded-t-xl">
               <img
@@ -206,8 +207,8 @@
 
         <!-- Project 2 -->
         <div
-        class="group relative col-span-3 flex flex-col justify-between overflow-hidden rounded-xl bg-white"
-        style="border: 2px solid transparent; background-origin: border-box; background-clip: padding-box, border-box; background-image: linear-gradient(white, white), linear-gradient(to right, rgba(255, 189, 205, 0.97), rgba(192, 245, 163, 0.78)); min-width: 400px; max-width: 400px;"
+        class="group relative col-span-3 flex flex-col justify-between overflow-hidden rounded-xl bg-white mx-auto"
+        style="border: 2px solid transparent; background-origin: border-box; background-clip: padding-box, border-box; background-image: linear-gradient(white, white), linear-gradient(to right, rgba(255, 189, 205, 0.97), rgba(192, 245, 163, 0.78)); min-width: 360px; max-width: 480px;"
       >
         <div>
           <div class="relative w-full pb-[56%] overflow-hidden rounded-t-xl">
@@ -255,8 +256,8 @@
 
       <!-- Project 3 -->
       <div
-      class="group relative col-span-3 flex flex-col justify-between overflow-hidden rounded-xl bg-white"
-      style="border: 2px solid transparent; background-origin: border-box; background-clip: padding-box, border-box; background-image: linear-gradient(white, white), linear-gradient(to right, rgba(255, 189, 205, 0.97), rgba(192, 245, 163, 0.78)); min-width: 400px; max-width: 400px;"
+      class="group relative col-span-3 flex flex-col justify-between overflow-hidden rounded-xl bg-white mx-auto"
+      style="border: 2px solid transparent; background-origin: border-box; background-clip: padding-box, border-box; background-image: linear-gradient(white, white), linear-gradient(to right, rgba(255, 189, 205, 0.97), rgba(192, 245, 163, 0.78)); min-width: 360px; max-width: 480px;"
     >
       <div>
         <div class="relative w-full pb-[56%] overflow-hidden rounded-t-xl">
@@ -269,7 +270,7 @@
         </div>
       </div>
       <div class="pointer-events-none z-10 flex transform-gpu flex-col gap-1 p-6 transition-all duration-300 group-hover:-translate-y-10">
-        <h3 class="text-base md:text-xl font-semibold text-neutral-700">Riya</h3>
+        <h3 class="text-base md:text-xl font-semibold text-neutral-700">Riyy</h3>
         <p class="max-w-lg text-sm md:text-base text-neutral-400">Tech Entrepreneurship Hackathon 2025</p>
       </div>
       <div
@@ -304,7 +305,7 @@
 
     <!-- Project 4 -->
     <div
-    class="group relative flex-none min-w-[330px] max-w-[370px] md:min-w-[320px] md:max-w-[320px] lg:min-w-[360px] lg:max-w-[360px] flex flex-col justify-between overflow-hidden rounded-lg md:rounded-xl bg-white project-card shadow-sm hover:shadow-md transition-shadow"
+    class="group relative mx-auto flex flex-col justify-between overflow-hidden rounded-lg md:rounded-xl bg-white project-card shadow-sm hover:shadow-md transition-shadow" style="min-width: 360px; max-width: 480px;"
   >
     <div>
       <div class="relative w-full pb-[56%] overflow-hidden rounded-t-xl">
@@ -318,7 +319,7 @@
     </div>
     <div class="pointer-events-none z-10 flex transform-gpu flex-col gap-1 p-6 transition-all duration-300 group-hover:-translate-y-10">
       <h3 class="text-base md:text-xl font-semibold text-neutral-700">Blossom events</h3>
-      <p class="max-w-lg text-sm md:text-base text-neutral-400">Coming Soon Project</p>
+      <p class="max-w-lg text-sm md:text-base text-neutral-400">Coming Soon</p>
     </div>
     <div
       class="pointer-events-none absolute bottom-0 flex w-full translate-y-10 transform-gpu flex-row items-center p-4 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100"
@@ -352,7 +353,7 @@
 
   <!-- Project 5 -->
   <div
-  class="group relative flex-none min-w-[330px] max-w-[370px] md:min-w-[320px] md:max-w-[320px] lg:min-w-[360px] lg:max-w-[360px] flex flex-col justify-between overflow-hidden rounded-lg md:rounded-xl bg-white project-card shadow-sm hover:shadow-md transition-shadow"
+  class="group relative mx-auto flex flex-col justify-between overflow-hidden rounded-lg md:rounded-xl bg-white project-card shadow-sm hover:shadow-md transition-shadow" style="min-width: 360px; max-width: 480px;"
 >
   <div>
     <div class="relative w-full pb-[56%] overflow-hidden rounded-t-xl">
@@ -366,7 +367,7 @@
   </div>
   <div class="pointer-events-none z-10 flex transform-gpu flex-col gap-1 p-6 transition-all duration-300 group-hover:-translate-y-10">
     <h3 class="text-base md:text-xl font-semibold text-neutral-700">Lost and Found</h3>
-    <p class="max-w-lg text-sm md:text-base text-neutral-400">Coming Soon Project</p>
+    <p class="max-w-lg text-sm md:text-base text-neutral-400">Coming Soon</p>
   </div>
   <div
     class="pointer-events-none absolute bottom-0 flex w-full translate-y-10 transform-gpu flex-row items-center p-4 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100"
@@ -400,7 +401,7 @@
 
 <!-- Project 6 -->
 <div
-class="group relative flex-none min-w-[330px] max-w-[370px] md:min-w-[320px] md:max-w-[320px] lg:min-w-[360px] lg:max-w-[360px] flex flex-col justify-between overflow-hidden rounded-lg md:rounded-xl bg-white project-card shadow-sm hover:shadow-md transition-shadow"
+class="group relative mx-auto flex flex-col justify-between overflow-hidden rounded-lg md:rounded-xl bg-white project-card shadow-sm hover:shadow-md transition-shadow" style="min-width: 360px; max-width: 480px;"
 >
 <div>
   <div class="relative w-full pb-[56%] overflow-hidden rounded-t-xl">
@@ -414,7 +415,7 @@ class="group relative flex-none min-w-[330px] max-w-[370px] md:min-w-[320px] md:
 </div>
 <div class="pointer-events-none z-10 flex transform-gpu flex-col gap-1 p-6 transition-all duration-300 group-hover:-translate-y-10">
   <h3 class="text-base md:text-xl font-semibold text-neutral-700">Pathy</h3>
-  <p class="max-w-lg text-sm md:text-base text-neutral-400">Coming Soon Project</p>
+  <p class="max-w-lg text-sm md:text-base text-neutral-400">Coming Soon</p>
 </div>
 <div
   class="pointer-events-none absolute bottom-0 flex w-full translate-y-10 transform-gpu flex-row items-center p-4 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100"
